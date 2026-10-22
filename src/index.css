@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Archivo', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #08080A;
+    color: #F1F2F6;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Solid Matte Surfaces — Zero Glassmorphism / Zero Blurs */
+.matte-ground {
+  background-color: #08080A;
+}
+
+.matte-surface {
+  background-color: #121318;
+  border: 1px solid #22242D;
+}
+
+.matte-card {
+  background-color: #121318;
+  border: 1px solid #22242D;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.matte-card:hover {
+  border-color: #323644;
+  background-color: #15171E;
+}
+
+.matte-elevated {
+  background-color: #181A20;
+  border: 1px solid #22242D;
+}
+
+/* Hide scrollbar for category tabs on mobile */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

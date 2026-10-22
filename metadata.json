@@ -1,0 +1,6 @@
+{
+  "name": "La Pasadita Inn - Denver Mexican Institution",
+  "description": "Historic triangular landmark in Denver serving authentic grandma-led Mexican cooking, crispy chile rellenos, smothered green chile, and traditional family specialties.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
